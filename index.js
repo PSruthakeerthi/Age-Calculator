@@ -1,5 +1,7 @@
 
- 
+  window.onload = function(){
+     document.getElementById('date').focus();
+ }
 
 function age() {  
 var d1 = document.getElementById('date').value;  
